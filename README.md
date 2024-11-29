@@ -10,8 +10,7 @@
 1.  Clone the repository:
 
 ```
-    git clone https://github.com/your-username/rbac-system.git
-    cd rbac-system
+    git clone https://github.com/AdarshAKJ/Role-Based-Access-Control-System.git
 ```
 
 2.  Install dependencies:
