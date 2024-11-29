@@ -1,0 +1,561 @@
+{
+	"info": {
+		"_postman_id": "3ca23401-7e27-411f-900e-4e45ce6983e6",
+		"name": "Api's",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32248441"
+	},
+	"item": [
+		{
+			"name": "UsersRegister",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"test3\",\r\n    \"email\": \"test3@gmail.com\",\r\n    \"password\": \"747946\",\r\n    \"role\": \"User\" //'Admin, User\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"test1\",\r\n    \"email\": \"test1@gmail.com\",\r\n    \"password\": \"747946\",\r\n    \"role\": \"Admin\" //'Admin, User\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/users/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "227"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e3-WkVxA2nKxgv0Wb1QZeRHEr9k5mw\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 29 Nov 2024 04:33:06 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User registered successfully!\",\n    \"user\": {\n        \"username\": \"test1\",\n        \"email\": \"test1@gmail.com\",\n        \"password\": \"$2b$10$II6y0kP2RXnKV4AB.PovQOwe6pBAj5auoisNKa2lfDnEJS9nZ6uEO\",\n        \"role\": \"Admin\",\n        \"_id\": \"67494402afecc677e9c8b662\",\n        \"__v\": 0\n    }\n}"
+				},
+				{
+					"name": "Example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"test2\",\r\n    \"email\": \"test2@gmail.com\",\r\n    \"password\": \"747946\",\r\n    \"role\": \"User\" //'Admin, User\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/users/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "226"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e2-2a42kM7Yea1uOUtseFbBngxtM/8\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 29 Nov 2024 04:35:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User registered successfully!\",\n    \"user\": {\n        \"username\": \"test2\",\n        \"email\": \"test2@gmail.com\",\n        \"password\": \"$2b$10$/NBQsI4GyjyBHRpQxaMjROvh47tYqpnww4LlB6AYwz24PFs4VP60u\",\n        \"role\": \"User\",\n        \"_id\": \"67494495afecc677e9c8b668\",\n        \"__v\": 0\n    }\n}"
+				},
+				{
+					"name": "Example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"test3\",\r\n    \"email\": \"test3@gmail.com\",\r\n    \"password\": \"747946\",\r\n    \"role\": \"User\" //'Admin, User\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/users/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "226"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e2-FzRceI5nY+Th8cOadQEzS6ImolY\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 29 Nov 2024 04:35:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"User registered successfully!\",\n    \"user\": {\n        \"username\": \"test3\",\n        \"email\": \"test3@gmail.com\",\n        \"password\": \"$2b$10$vcbRS8EQ51a9UQfrEH7TmurVRiQKYx6kq7bKVhoXZttRf4BAbNHC.\",\n        \"role\": \"User\",\n        \"_id\": \"674944acafecc677e9c8b66c\",\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"test1@gmail.com\",\r\n    \"password\": \"747946\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test1@gmail.com\",\r\n    \"password\": \"747946\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/users/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "203"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"cb-yQpSDNVpaOb1amSN+VOV/EitInc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 29 Nov 2024 04:33:38 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDk0NDAyYWZlY2M2NzdlOWM4YjY2MiIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTczMjg1NDgxOCwiZXhwIjoxNzMyODU4NDE4fQ.dju5H5mzq-6mqXIJ4aFiU4P2a7PWCdzAbUVIji6EboE\"\n}"
+				}
+			]
+		},
+		{
+			"name": "All-users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDk0NDAyYWZlY2M2NzdlOWM4YjY2MiIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTczMjg1NDgxOCwiZXhwIjoxNzMyODU4NDE4fQ.dju5H5mzq-6mqXIJ4aFiU4P2a7PWCdzAbUVIji6EboE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/users/all-users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"all-users"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDk0NDAyYWZlY2M2NzdlOWM4YjY2MiIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTczMjg1NDgxOCwiZXhwIjoxNzMyODU4NDE4fQ.dju5H5mzq-6mqXIJ4aFiU4P2a7PWCdzAbUVIji6EboE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/users/all-users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"all-users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "733"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2dd-KE+K4+hsqYzv6wXYJXLWwm/x4Yo\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 29 Nov 2024 04:34:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"6748a3435b5233da4c1e02e7\",\n        \"username\": \"adarshjha\",\n        \"email\": \"jhaadarsh50@gmail.com\",\n        \"password\": \"$2b$10$Nbemxn2zzo6e66HJMfTkZuXeFWHWoBdJGQzvrLdTr4IIMX.SrjChW\",\n        \"role\": \"Admin\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67493d87f95ee8a4a1764d6d\",\n        \"username\": \"kunaljha\",\n        \"email\": \"kunaljha@gmail.com\",\n        \"password\": \"$2b$10$f799L1amIjmINMSHoF9WHOZ/Dmm59F3vvGbp/Ekqa0PL16D3oiRla\",\n        \"role\": \"Admin\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67493dbbf95ee8a4a1764d71\",\n        \"username\": \"akshayjha\",\n        \"email\": \"akshayjha@gmail.com\",\n        \"password\": \"$2b$10$2Z2Cqq9Pb.zdU428utN3D.s1dRXTrD7CZfTSOSImBswUqWpH7SEuW\",\n        \"role\": \"Admin\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67494402afecc677e9c8b662\",\n        \"username\": \"test1\",\n        \"email\": \"test1@gmail.com\",\n        \"password\": \"$2b$10$II6y0kP2RXnKV4AB.PovQOwe6pBAj5auoisNKa2lfDnEJS9nZ6uEO\",\n        \"role\": \"Admin\",\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Update-role",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDkzZDg3Zjk1ZWU4YTRhMTc2NGQ2ZCIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTczMjg1NDU4MywiZXhwIjoxNzMyODU4MTgzfQ.hH5neb3juk0Mgad9Zwkci27pH7tXqByqsDpDrF86kxU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"role\": \"Admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/users/update-role/674944acafecc677e9c8b66c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"update-role",
+						"674944acafecc677e9c8b66c"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDkzZDg3Zjk1ZWU4YTRhMTc2NGQ2ZCIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTczMjg1NDU4MywiZXhwIjoxNzMyODU4MTgzfQ.hH5neb3juk0Mgad9Zwkci27pH7tXqByqsDpDrF86kxU",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\": \"Admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/users/update-role/674944acafecc677e9c8b66c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"update-role",
+								"674944acafecc677e9c8b66c"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "176"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b0-RI8U9M6m09icNAkPHk4M2pBf4iU\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 29 Nov 2024 04:37:03 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"674944acafecc677e9c8b66c\",\n    \"username\": \"test3\",\n    \"email\": \"test3@gmail.com\",\n    \"password\": \"$2b$10$vcbRS8EQ51a9UQfrEH7TmurVRiQKYx6kq7bKVhoXZttRf4BAbNHC.\",\n    \"role\": \"Admin\",\n    \"__v\": 0\n}"
+				}
+			]
+		}
+	]
+}
